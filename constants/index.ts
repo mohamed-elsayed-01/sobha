@@ -3,11 +3,11 @@
 const navbarItems = [
     {
         title: "Home",
-        href: "/"
+        href: "#hero"
     },
     {
         title: "Residences",
-        href: "/residences"
+        href: "#residences"
     },
     {
         title: "Amenities",

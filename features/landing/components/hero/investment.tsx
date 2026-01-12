@@ -1,5 +1,6 @@
 import sectionimg from "@/public/images/investment/investment.png"
 import { investment } from "../../constants"
+import Link from "next/link"
 
 const Investment = () => {
 
@@ -28,9 +29,9 @@ const Investment = () => {
                     <div className="flex flex-col gap-4">
                         {render_investments}
                     </div>
-                    <button className="rounded-full text-[#272963] text-sm lg:text-base leading-6 font-semibold w-fit px-[20px] py-[12px] lg:px-[28px] lg:py-[16px] bg-white">
+      <Link href={"#register"} className="rounded-full text-[#272963] text-sm lg:text-base leading-6 font-semibold w-fit px-[20px] py-[12px] lg:px-[28px] lg:py-[16px] bg-white">
                         Register Now
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

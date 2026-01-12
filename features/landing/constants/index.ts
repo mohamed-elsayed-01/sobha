@@ -24,11 +24,14 @@ import slider3 from "@/public/images/slider/slide3.png"
 import slider4 from "@/public/images/slider/slide4.jpg"
 import slider5 from "@/public/images/slider/slide5.jpg"
 import slider6 from "@/public/images/slider/slide6.jpg"
+import slider7 from "@/public/images/slider/slide7.png"
+import slider8 from "@/public/images/slider/slide8.png"
 
 import island1 from "@/public/images/island/img1.png"
 import island2 from "@/public/images/island/img2.png"
 import island3 from "@/public/images/island/img3.png"
 import island4 from "@/public/images/island/img4.png"
+import island5 from "@/public/images/island/img5.png"
 
 
 const features = [
@@ -112,6 +115,16 @@ const slides = [
         id: 6,
         image: slider6,
         alt: "Modern hillside house",
+    },
+    {
+        id: 7,
+        image: slider7,
+        alt: "Mediterranean villa with pool",
+    },
+    {
+        id: 8,
+        image: slider8,
+        alt: "Modern hillside house",
     }
 ]
 
@@ -164,37 +177,26 @@ const amenities = [
 
 const islandSlides = [
     {
-        duration: "10 Min",
+        duration: "5 Min",
+        title: "Sheikh Zayed Grand Mosque",
         img: island1
     },
     {
         duration: "15 Min",
+        title: "Saadiyat Island",
         img: island2
     },
     {
-        duration: "20 Min",
+        duration: "25 Min",
+        title: "ADGM",
         img: island3
     },
     {
-        duration: "25 Min",
+        duration: "30 Min",
+        title: "Yas Island",
         img: island4
     },
-    {
-        duration: "10 Min",
-        img: island1
-    },
-    {
-        duration: "15 Min",
-        img: island2
-    },
-    {
-        duration: "20 Min",
-        img: island3
-    },
-    {
-        duration: "25 Min",
-        img: island4
-    }
+
 ]
 
 const investment = [

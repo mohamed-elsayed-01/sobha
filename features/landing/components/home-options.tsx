@@ -5,6 +5,7 @@ import { Heart } from "lucide-react";
 import { useState } from "react";
 import clsx from "clsx";
 import Image from "next/image";
+import Link from "next/link";
 
 const HomeOptions = () => {
 
@@ -46,9 +47,9 @@ const HomeOptions = () => {
                     <h3 className="text-[32px] xl:text-[64px] font-normal tracking-[-1.28px] xl:tracking-[-2.56px] capitalize font-dm-serif text-white leading-[1.1]">
                         Choose Your Ideal Home
                     </h3>
-                    <button className="w-full xl:w-auto py-4 px-7 rounded-full bg-[#E0592A] text-base font-semibold leading-6 text-white">
+                    <Link href={"#register"} className="w-full xl:w-auto py-4 px-7 rounded-full bg-[#E0592A] text-base font-semibold leading-6 text-white">
                         Request Floor Plans
-                    </button>
+                    </Link>
                 </div>
                 <div className="w-full grid grid-cols-1 xl:grid-cols-[1fr_709px] gap-[40px]">
                     <div className="col-span-1 space-y-6 w-full">

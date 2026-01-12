@@ -35,9 +35,9 @@ const Navbar = () => {
                 {/* Desktop Navigation */}
                 <div className="hidden lg:flex items-center justify-end gap-8">
                     {RENDER_ITEMS}
-                    <button className="font-poppins text-base font-medium leading-[24px] text-white px-[28px] py-[10px] rounded-full bg-[#E46027]">
+                    <Link href="#register" className="font-poppins text-base font-medium leading-[24px] text-white px-[28px] py-[10px] rounded-full bg-[#E46027]">
                         Register Now
-                    </button>
+                    </Link>
                 </div>
 
                 {/* Mobile Navigation */}

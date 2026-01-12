@@ -23,8 +23,9 @@ const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700"],
 });
 export const metadata: Metadata = {
-  title: "Psi",
-  description: "Your trusted partner in finding the perfect property. Explore premium real estate listings and investment opportunities.",
+  title: "Bashayer Apartments on Hudayriyat Island | Waterfront Living in Abu Dhabi",
+  description:
+    "Explore Bashayer apartments on Hudayriyat Island, Abu Dhabi. Choose from 1 to 4 bedroom waterfront residences with stunning skyline views, premium amenities, flexible payment plans and priority access.",
   icons: {
     icon: [
       { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
@@ -32,7 +33,11 @@ export const metadata: Metadata = {
     ],
     shortcut: "/favicon/favicon.ico",
     apple: [
-      { url: "/favicon/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      {
+        url: "/favicon/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
     ],
   },
   manifest: "/favicon/site.webmanifest",
