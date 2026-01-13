@@ -6,6 +6,7 @@ import img4 from "@/public/images/life-style/ls5.png";
 import img5 from "@/public/images/life-style/ls4.jpg";
 import img7 from "@/public/images/life-style/ls6.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 const LifeStyle = () => {
   return (
@@ -44,9 +45,9 @@ const LifeStyle = () => {
               ● Walkable, wellness-focused environment
             </li>
           </ul>
-          <Button className="border border-[#CFAF8F] rounded-full bg-transparent mt-[49px] text-base px-[28px] py-[10px] cursor-pointer">
+          <Link href={"#register"} className="border border-[#CFAF8F] rounded-full bg-transparent mt-[49px] text-base px-[28px] py-[5px] cursor-pointer font-poppins">
             Register Now
-          </Button>
+          </Link>
         </div>
         <div className="h-[250px] relative lg:hidden mt-12">
           <div className="block absolute left-0 z-4 w-[237.32px] h-[236.832px] bg-white rounded-[4px] transform rotate-[-10.978deg] shadow-[0_100px_200px_0_rgba(52,64,84,0.18)] p-1">

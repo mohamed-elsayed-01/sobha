@@ -10,7 +10,7 @@ const LeftSide = () => {
             <h1 className="text-[48px] tracking-[-1.88px] font-dm-serif leading-15 font-medium">
                 <span>Sobha&apos;s First Master</span> <br /> Community in Abu Dhabi <br /> <span>Coming Soon Near Yas Island</span>
             </h1>
-            <p className="max-w-[640px] text-lg font-light tracking-[-0.96px] capitalize font-poppins">
+            <p className="max-w-[640px] text-lg font-light tracking-[-0.96px] capitalize font-poppins hidden lg:block">
                 Sobha Realty, a globally trusted developer with <span className="font-medium">30+ years of excellence</span> and <span className="font-medium">20+ landmark projects</span>, is launching its first master-planned community in Abu Dhabi — strategically located in Al Bahiya. Inspired by Sobha Hartland, Dubai, this community is designed as a fully integrated destination where nature, modern infrastructure, and refined living come together.
             </p>
             <Features />
