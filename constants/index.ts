@@ -7,15 +7,15 @@ const navbarItems = [
     },
     {
         title: "Amenities",
-        href: "/amenities"
+        href: "#amenities"
     },
     {
         title: "Location",
-        href: "/location"
+        href: "#location"
     },
     {
         title: "Investment",
-        href: "/investment"
+        href: "#investment"
     }
 ]
 
