@@ -20,12 +20,12 @@ const dmSerif = DM_Serif_Display({
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["200", "300", "400", "500", "600", "700"],
 });
 export const metadata: Metadata = {
-  title: "Bashayer Apartments on Hudayriyat Island | Waterfront Living in Abu Dhabi",
+  title: "Sobha",
   description:
-    "Explore Bashayer apartments on Hudayriyat Island, Abu Dhabi. Choose from 1 to 4 bedroom waterfront residences with stunning skyline views, premium amenities, flexible payment plans and priority access.",
+    "Explore Sobha apartments",
   icons: {
     icon: [
       { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },

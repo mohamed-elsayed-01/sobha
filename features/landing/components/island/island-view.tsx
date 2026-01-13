@@ -1,9 +1,8 @@
 "use client";
-
 import Image from "next/image";
-import island from "@/public/images/island/island.png";
 import IslandSlider from "./island-slider";
 import { useState } from "react";
+import map from "@/public/images/map.png";
 import FullscreenModal from "./FullscreenModal";
 
 const IslandView = () => {
@@ -18,7 +17,7 @@ const IslandView = () => {
           onClick={() => setOpen(true)}
         >
           <Image
-            src={island.src}
+            src={map.src}
             alt="island"
             fill
             className="object-cover rounded-lg"
@@ -29,15 +28,15 @@ const IslandView = () => {
         <FullscreenModal
           open={open}
           onClose={() => setOpen(false)}
-          src={island.src}
+          src={map.src}
         />
 
-        <h3 className="mt-[84px] text-[#272963] text-[64px] font-normal capitalize tracking-[-2.56px] font-dm-serif">
-          Your Island. Your City. Your Lifestyle.
+        <h3 className="mt-[84px] text-[#212529] text-[64px] font-normal capitalize tracking-[-2.56px] font-dm-serif">
+          Prime Location – Al Bahiya
         </h3>
 
         <p className="font-poppins text-lg leading-none tracking-[-0.72px] capitalize font-normal text-[#17173B99]">
-          Minutes away from Abu Dhabi’s most iconic destinations.
+          Just minutes from Yas Island, with easy access to:
         </p>
       </div>
 

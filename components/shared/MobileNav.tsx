@@ -52,7 +52,7 @@ const MobileNav = () => {
             <SheetContent side="right" className="w-full sm:max-w-full bg-white border-none [&>button]:text-[#272963]">
                 <div className="flex flex-col gap-8 mt-10 items-start px-6">
                     {MOBILE_ITEMS}
-                    <button className="font-poppins text-base font-medium leading-[24px] text-white px-[28px] py-[10px] rounded-full bg-[#E46027]">
+                    <button className="font-poppins text-base font-medium leading-[24px] text-black px-[28px] py-[10px] rounded-full border-black border cursor-pointer">
                         Register Now
                     </button>
                 </div>
