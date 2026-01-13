@@ -4,7 +4,7 @@ import IslandSlider from "./island-slider";
 const IslandView = () => {
   return (
     <div className="pt-[80px] pb-[60px]">
-      <div className="px-[20px] lg:px-[80px]">
+      <div id="location" className="px-[20px] lg:px-[80px]">
         {/* GOOGLE MAP */}
         <div className="relative w-full h-[400px] lg:min-h-[800px]">
           <iframe
