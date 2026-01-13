@@ -17,7 +17,7 @@ const Amentities = () => {
   });
 
   return (
-    <div className="py-[40px] lg:py-[80px]">
+    <div id="amenities" className="py-[40px] lg:py-[80px]">
       <div className="space-y-4 lg:space-y-6 text-center px-4">
         <h3 className="text-[#212529] text-[32px] lg:text-[64px] font-normal tracking-[-1.28px] lg:tracking-[-2.56px] capitalize font-dm-serif ">
           Lifestyle & Amenities
