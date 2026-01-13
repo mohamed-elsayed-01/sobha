@@ -15,7 +15,7 @@ const Investment = () => {
     ))
 
     return (
-        <div style={{
+        <div id="investment style={{
             backgroundImage: `url(${sectionimg.src})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
