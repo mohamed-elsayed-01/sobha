@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { islandSlides } from "../../constants";
-import { Clock3 } from "lucide-react";
 
 const IslandSlider = () => {
   const RENDER_ITEMS = islandSlides.map((i, key) => {
@@ -17,9 +16,8 @@ const IslandSlider = () => {
             className="object-cover rounded-[4px]"
           />
 
-          {/* ✅ overlay content */}
           <div className="absolute bottom-0 left-0 w-full p-4 bg-linear-to-t from-black/70 to-transparent">
-            <p className="flex gap-2 items-center bg-[#FFFFFF1A] w-fit text-white px-4 py-2 text-lg rounded-full backdrop-blur-sm"><Clock3 className="w-4 h-4" /> {i.title} </p>
+            <p className="flex gap-2 items-center bg-[#FFFFFF1A] w-fit text-white px-4 py-2 text-lg rounded-full backdrop-blur-sm">{i.title} </p>
           </div>
         </div>
       </div>

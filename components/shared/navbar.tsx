@@ -29,7 +29,7 @@ const Navbar = () => {
 
     return (
         <nav className="w-full absolute top-0 left-0 right-0 z-50 py-6">
-            <div className="px-[20px] lg:px-[40px] flex justify-between items-center">
+            <div className="px-[20px] lg:px-[40px] flex justify-between items-start lg:items-center">
                 <div className="flex items-center gap-16">
                     <Image src={sobhaLogo.src} alt="psi logo" width={133} height={48} />
                     <div className="lg:flex items-center gap-8 hidden">
