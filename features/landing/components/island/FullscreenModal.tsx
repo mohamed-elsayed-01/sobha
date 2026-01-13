@@ -20,7 +20,7 @@ export default function FullscreenModal({
         bg-black/80 
         backdrop-blur-sm
         flex items-center justify-center 
-        z-[9999]
+        z-9999
       "
       onClick={onClose}
     >

@@ -23,7 +23,7 @@ import { submitLeadToCRM } from "@/lib/apis/SubmitLead";
 const RightSide = () => {
   const [loading, setLoading] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
-const [errorMessage, setErrorMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
   const {
     register,
     handleSubmit,
@@ -41,30 +41,30 @@ const [errorMessage, setErrorMessage] = useState("");
     },
   });
 
-const onSubmit = async (data: RegisterFormValues) => {
-  console.log(data);
-  try {
-    setLoading(true);
-    setErrorMessage("");
-    setSuccessMessage("");
+  const onSubmit = async (data: RegisterFormValues) => {
+    console.log(data);
+    try {
+      setLoading(true);
+      setErrorMessage("");
+      setSuccessMessage("");
 
-    const response = await submitLeadToCRM(data);
+      const response = await submitLeadToCRM(data);
 
-    console.log("CRM Response:", response);
+      console.log("CRM Response:", response);
 
-    if (response.success) {
-      setSuccessMessage("Your registration was successful! We will contact you shortly.");
-      reset();
-    } else {
-      setErrorMessage("Something went wrong. Please try again.");
+      if (response.success) {
+        setSuccessMessage("Your registration was successful! We will contact you shortly.");
+        reset();
+      } else {
+        setErrorMessage("Something went wrong. Please try again.");
+      }
+    } catch (error) {
+      console.error("CRM Error:", error);
+      setErrorMessage("Failed to submit. Please try again.");
+    } finally {
+      setLoading(false);
     }
-  } catch (error) {
-    console.error("CRM Error:", error);
-    setErrorMessage("Failed to submit. Please try again.");
-  } finally {
-    setLoading(false);
-  }
-};
+  };
 
   return (
     <div className="w-full h-full flex justify-center items-center px-[20px] lg:px-[40px]">
@@ -241,7 +241,7 @@ const onSubmit = async (data: RegisterFormValues) => {
           <Button
             type="submit"
             disabled={loading}
-            className="col-span-2 text-base cursor-pointer font-normal leading-5 font-poppins text-white py-4 px-7 bg-[#E0592A] hover:bg-[#E0592A] rounded-full mt-[12px] h-auto opacity-100 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="col-span-2 text-base cursor-pointer font-normal leading-5 font-poppins  py-4 px-7 bg-white text-black rounded-full mt-[12px] h-auto opacity-100 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {loading ? "Submitting..." : "Submit & Get Priority Access"}
           </Button>
@@ -250,17 +250,17 @@ const onSubmit = async (data: RegisterFormValues) => {
 
         </form>
 
-                  {successMessage && (
-  <p className="text-green-400 text-sm mt-3 text-center w-full">
-    {successMessage}
-  </p>
-)}
+        {successMessage && (
+          <p className="text-green-400 text-sm mt-3 text-center w-full">
+            {successMessage}
+          </p>
+        )}
 
-{errorMessage && (
-  <p className="text-red-400 text-sm mt-3 text-center w-full">
-    {errorMessage}
-  </p>
-)}
+        {errorMessage && (
+          <p className="text-red-400 text-sm mt-3 text-center w-full">
+            {errorMessage}
+          </p>
+        )}
       </div>
     </div>
   );

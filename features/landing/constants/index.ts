@@ -18,20 +18,17 @@ import img1 from "@/public/images/ideal-home/1.png"
 import img2 from "@/public/images/ideal-home/2.png"
 import img3 from "@/public/images/ideal-home/3.png"
 import img4 from "@/public/images/ideal-home/4.png"
-import slider1 from "@/public/images/slider/slide1.png"
-import slider2 from "@/public/images/slider/slide2.png"
-import slider3 from "@/public/images/slider/slide3.png"
+import slider2 from "@/public/images/slider/slide2.jpeg"
+import slider3 from "@/public/images/slider/slide3.jpg"
 import slider4 from "@/public/images/slider/slide4.jpg"
-import slider5 from "@/public/images/slider/slide5.jpg"
+import slider5 from "@/public/images/slider/slide5.avif"
 import slider6 from "@/public/images/slider/slide6.jpg"
-import slider7 from "@/public/images/slider/slide7.png"
-import slider8 from "@/public/images/slider/slide8.png"
-
-import island1 from "@/public/images/island/img1.png"
+import slider7 from "@/public/images/slider/slide7.jpg"
+import slider8 from "@/public/images/slider/slide8.jpg"
+import island1 from "@/public/images/island/img1.webp"
 import island2 from "@/public/images/island/img2.png"
 import island3 from "@/public/images/island/img3.png"
-import island4 from "@/public/images/island/img4.png"
-import island5 from "@/public/images/island/img5.png"
+
 
 
 const features = [
@@ -87,11 +84,6 @@ const residences = [
 
 const slides = [
     {
-        id: 1,
-        image: slider1,
-        alt: "Luxury interior dining room",
-    },
-    {
         id: 2,
         image: slider2,
         alt: "Mediterranean villa with pool",
@@ -130,82 +122,48 @@ const slides = [
 
 const amenities = [
     {
-        title: "Skyroof Deck",
+        title: "2 International Schools ",
         icon: Sun
     },
     {
-        title: "Swimming Pool",
+        title: "Shopping Mall & Retail Promenade ",
         icon: Waves
     },
     {
-        title: "Wellness Facilities",
+        title: "Parks, walking trails & leisure spaces ",
         icon: Flower2
     },
     {
-        title: "Gym",
+        title: "Nurseries and family facilities ",
         icon: Dumbbell
     },
     {
-        title: "Co-working Spaces",
+        title: "Seamless internal road network ",
         icon: Briefcase
-    },
-    {
-        title: "Promenade & Boardwalk",
-        icon: Footprints
-    },
-    {
-        title: "Park & Green Spaces",
-        icon: TreeDeciduous
-    },
-    {
-        title: "Children's Play Areas",
-        icon: Baby
-    },
-    {
-        title: "Gaming Room",
-        icon: Gamepad2
-    },
-    {
-        title: "Cafés, Dining & Retail",
-        icon: Coffee
-    },
-    {
-        title: "24/7 Concierge",
-        icon: Bell
     }
 ]
 
 const islandSlides = [
     {
-        duration: "5 Min",
-        title: "Sheikh Zayed Grand Mosque",
+        title: "Ferrari World & Formula 1 Circuit",
         img: island1
     },
     {
-        duration: "15 Min",
-        title: "Saadiyat Island",
+        title: "Entertainment, concerts & attractions",
         img: island2
     },
     {
-        duration: "25 Min",
         title: "ADGM",
         img: island3
     },
-    {
-        duration: "30 Min",
-        title: "Yas Island",
-        img: island4
-    },
+
 
 ]
 
 const investment = [
-    "High-Demand Waterfront Location",
-    "Large Apartment Layouts (Bigger Than Market Average)",
-    "Strong Future Rental Demand",
-    "Located In The Fastest-Growing Island District",
-    "Limited Inventory, High Appreciation Potential",
-    "Delivered By A Trusted Developer"
+    "Launch pricing & floor plans",
+    "Payment plans",
+    "Priority unit allocation"
 ]
 
 export {

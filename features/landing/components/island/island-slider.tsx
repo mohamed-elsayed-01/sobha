@@ -12,15 +12,14 @@ const IslandSlider = () => {
         <div className="relative w-[316px] h-[316px]">
           <Image
             src={i.img}
-            alt={i.duration}
+            alt={i.title}
             fill
             className="object-cover rounded-[4px]"
           />
 
           {/* ✅ overlay content */}
-          <div className="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black/70 to-transparent">
-            <p className="text-white mb-2 text-lg font-medium">{i.title}</p>
-            <p className="flex gap-2 items-center bg-[#FFFFFF1A] w-fit text-white px-4 py-2 text-lg rounded-full backdrop-blur-sm"><Clock3 className="w-4 h-4" /> {i.duration} away</p>
+          <div className="absolute bottom-0 left-0 w-full p-4 bg-linear-to-t from-black/70 to-transparent">
+            <p className="flex gap-2 items-center bg-[#FFFFFF1A] w-fit text-white px-4 py-2 text-lg rounded-full backdrop-blur-sm"><Clock3 className="w-4 h-4" /> {i.title} </p>
           </div>
         </div>
       </div>

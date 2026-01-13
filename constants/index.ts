@@ -6,15 +6,11 @@ const navbarItems = [
         href: "#hero"
     },
     {
-        title: "Residences",
-        href: "#residences"
-    },
-    {
         title: "Amenities",
         href: "/amenities"
     },
     {
-        title: "BlogLocation",
+        title: "Location",
         href: "/location"
     },
     {
